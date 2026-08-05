@@ -1,12 +1,52 @@
 body{  
     background-color: #f4d35e;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
 }
 header{
     background-color: #0d3b66;
 }
+
 section{
     background-color: #f4d35e;
 }
 footer{
     background-color: #0d3b66;
+}
+
+button{
+    margin: 3px 8px;
+    min-width: 288px;
+    min-height: 60px;
+    max-width: 288px;
+    max-height: 60px;
+    border-radius: 20px;
+    background-color: #f95738;
+    font-size: 20px;
+}
+.table1{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+.padding{
+    width: 90px;
+    height: 460px;
+    background-color: #f4d35e;
+}
+.searchBlock{
+    width: 400px;
+    height: 460px;
+    background-color: #FAF0ca;
+}
+.result{
+    width: 750px;
+    height: 210px;
+    background-color: #ee9648;
 }
