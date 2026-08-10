@@ -6,6 +6,10 @@ body{
 html{
     overflow: hidden;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 header{
     background-color: #0d3b66;
 }
@@ -49,4 +53,7 @@ div{
     width: 750px;
     height: 210px;
     background-color: #ee9648;
+}
+@media all and (max-width: 600px){
+
 }
