@@ -17,6 +17,7 @@ header{
 section{
     background-color: #f4d35e;
 }
+
 footer{
     background-color: #0d3b66;
 }
@@ -31,29 +32,65 @@ button{
     background-color: #f95738;
     font-size: 20px;
 }
+
 .table1{
     margin: 0px;
     padding: 0px;
 }
+
 div{
     margin: 0px;
     padding: 0px;
 }
+
 .padding{
     width: 90px;
     height: 460px;
     background-color: #f4d35e;
 }
+
 .searchBlock{
     width: 400px;
     height: 460px;
     background-color: #FAF0ca;
+    border-radius: 20px;
 }
+
 .result{
     width: 750px;
     height: 210px;
     background-color: #ee9648;
 }
+
 @media all and (max-width: 600px){
 
+}
+
+.padding2{
+    width: 360px;
+    height: 460px;
+    background-color: #f4d35e;
+}
+
+.mainblock{
+    width: 660px;
+    height: 460px;
+    background-color: #0b3d66;
+    border-radius: 20px;
+    animation: 3s linear 0s 100000 running ChangeMyColour;
+}
+
+@keyframes ChangeMyColour{
+
+}
+.centre{
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.link{
+    color: #5e74f4;
+    text-decoration: underline;
 }
