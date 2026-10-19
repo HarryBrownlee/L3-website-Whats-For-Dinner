@@ -4,27 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>Information</title>
     <link rel="icon" type="image/x-icon" href="Logo(nocircle).png">
 </head>
+<!-- Information Page -->
 <body>
     <header>
         <table>
             <tr>
-                <td><img src="logo.png" height="60px" width="60px"></td>
-                <td><button onclick="document.location='#'">Search Page</button></td>
-                <td><button onclick="document.location='Top10FOfTheWeek.html'">Top Food of the Week</button></td>
+                <td><a href="Index.html"><img src="logo.png" height="60px" width="60px"></a></td>
+                <td><button onclick="document.location='Foodlist.html'">Search</button></td>
+                <td><button onclick="document.location='Top10FOfTheWeek.html'">Top Foods of the Week</button></td>
                 <td><button onclick="document.location='FavFood.html'">Liked Foods</button></td>
-                <td><button onclick="document.location='About.html'">About Us</button></td>
-                <td><img src="defultUser.png" height="60px" width="60px"></td>
+                <td><button onclick="document.location='information.html'">About Us</button></td>
+                <td><a href="Login.html"><img src="defultUser.png" height="60px" width="60px"></a></td>
             </tr>
         </table>
     </header>
     <section>
+        <table class="table1">
+            <tr>
+                <td><div class="padding2"></div></td>
+                <td><div class="mainblock">
+                    <table align="center" padding="10px" cellspacing="10px">
+                        <tr>
+                            <td align="center"><img src="happy-men-chefs-cooking-food-260nw-746467597.jpeg" height="100%" width="80%"><p>Welcome to our information page. Here you’ll find important details about our services, processes, and what you can expect when working with us.</p><br><br><br><br><br><button onclick="document.location='Contacts.html'">Contact Form</button></td>   
+                            <td align="center"><img src="lockimages.jpg" height="100%" width="80%"><p>We take the security and privacy of your information seriously. This page provides a general overview of how we protect information and respect your privacy when you use our services.</p><button onclick="document.location='SecAndPriInf.html'">Security and Privacy Information</button></td>
+                        </tr>
+                    </table>
+                    </div></td>
+                <td><div class="padding2"></div></td>
+            </tr>
+        </table>      
     </section>
     <footer>
-        <img src="Weibo.svg" height="60px" width="60px">
-        <img src="TeamViewer.png" height="t0px" width="60px">
+        <div align="right">
+            <a href="https://www.weibo.com/in/"><img src="Weibo.svg" height="60px" width="60px"></a>
+            <a href="https://www.teamviewer.com/in/"><img src="TeamViewer.png" height="60px" width="60px"></a>
+        </div>
     </footer>
 </body>
 </html>
